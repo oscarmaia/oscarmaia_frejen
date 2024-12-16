@@ -9,7 +9,7 @@ export async function populateDatabaseWithDummyData() {
   const fin = await Department.create({ title: "Financeiro" });
   const admin = await userService.createUser({
     name: "Admin",
-    email: "frejen@gmail.com",
+    email: "admin@gmail.com",
     password: "password",
     admin: true,
     id_department: 2,
